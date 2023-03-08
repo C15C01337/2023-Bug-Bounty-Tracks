@@ -27,7 +27,7 @@
     - [ ]  Check for insufficient email verification process
     - [ ]  Weak registration implementation-Allows disposable email addresses
     - [ ]  Weak registration implementation-Over HTTP
-    - [ ]  Overwrite default web application pages by specially crafted username registrations. => After registration, does your profile link appears something as [www.tushar.com/](http://www.chintan.com/chintan)tushar?
+    - [ ]  Overwrite default web application pages by specially crafted username registrations. => After registration, does your profile link appears something
 
 > a. If so, enumerate default folders of web application such as /images, /contact, /portfolio
 > 
@@ -245,7 +245,7 @@
     - ?return_path={payload}
     - [ ]  Use burp 'find' option in order to find parameters such as URL, red, redirect, redir, origin, redirect_uri, target etc
     - [ ]  Check the value of these parameter which may contain a URL
-    - [ ]  Change the URL value to [www.tushar.com](http://www.chintan.com/) and check if gets redirected or not
+    - [ ]  Change the URL value to  and check if gets redirected or not
     - [ ]  Try Single Slash and url encoding
     - [ ]  Using a whitelisted domain or keyword
     - [ ]  Using // to bypass http blacklisted keyword
@@ -304,7 +304,7 @@
     - [ ]  Upload file using '"><img src=x onerror=alert(document.domain)>.txt
     - [ ]  If script tags are banned, use <h1> and other HTML tags
     - [ ]  If output is reflected back inside the JavaScript as a value of any variable just use alert(1)
-    - [ ]  if " are filtered then use this payload /><img src=d onerror=confirm(/tushar/);>
+    - [ ]  if " are filtered then use this payload /><img src=d onerror=confir m(/GG/);>
     - [ ]  Upload a JavaScript using Image file
     - [ ]  Unusual way to execute your JS payload is to change method from POST to GET. It bypasses filters sometimes
     - Tag attribute value
